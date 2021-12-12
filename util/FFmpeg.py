@@ -14,7 +14,6 @@ class ffmpeg(object):
             .maxRate('3000k')
             .audioCodec('aac')
             .bitrate(type='a', rate='192k')
-            .codec(type='v', codec='h264_omx')
             .format('flv')
             .output(output)
         )
